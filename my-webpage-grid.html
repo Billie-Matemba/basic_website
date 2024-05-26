@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage grid</title>
+    <link rel="stylesheet" href="simple-grid.css">
+</head>
+<body>
+    <div>
+        <div class="row">
+            <div class="col-6 which"> 
+                <h1> Billie Takunda Matemba</h1> 
+            </div>
+        <div class="col-6 back">
+   <img src="images/me.jpg" width="30%" class="my_img">
+        </div>
+        </div>
+    </div>
+   
+<div>
+    <div class="row">
+        <div class="col-6">
+        <h2 class="which">Which City ?</h2>
+    <img src="images/City.jpeg">
+    </div>
+    <div class="col-6">
+    <p>The city which I want to visit is Singapore, mainly because of the Marina Bay Sands, which was designed by one of my favourite architect Moshe Safdie.</p>
+    </div>
+    </div>
+</div>
+<div>
+    <div class="row">
+    <div class="col-12 which">
+    <h2> A foreign language</h2>
+    </div>
+    <div class="col-12">
+        <p>A foreign language which I want to learn is Korean because I like watching Korean dramas, and would like to visit Korea one day.</p>
+    </div>
+    <table class="col-6">
+        <tr>
+          <th>English</th>
+          <th>Korean</th>
+        </tr>
+        <tr>
+          <td>Hi!</td>
+          <td>An-nyeong-ha-se-yo</td>
+        
+        </tr>
+        <tr>
+          <td>How are you?</td>
+          <td>Eo-tteoh-ke Ji-nae-se-yo</td>
+        </tr>
+        <tr>
+            <td>What is your name?</td>
+            <td> Seong-ham-i Eo-tteoh-ke Dwe-se-yo</td>  
+        </tr>
+      </table>
+    </div> 
+</div>
+
+<style>
+@media (max-width:960px) {
+    .mid-text {
+        float: left !important;
+    }
+    .mid-text-img {
+    float: right !important;
+}
+}
+
+p {
+    font-size: 15px;
+}
+</style>
+
+<div>
+<div class="row">
+    <div class="col-12 which">
+<h2> Favourite Subjects</h2>
+    </div>
+</div>
+
+   <div class="row">
+    <div class="col-4">
+        <div class="row">
+        <h2> 4IR Technologies Bootcamp</h2>
+        <img src="images/machine.jpeg" class="col-6-sm">
+   
+        <P class="col-6-sm">One of my favourite subjects, and the very first subject I was introduced on the first days of the Accenture 4IR WRP. From decision tree to ANN this subject was very fun and mind-blowing</P>
+        </div>
+    </div>
+
+    <div class="col-4">
+        <div class="row">
+        <h2> Full stack web development for 4IR</h2>
+        <img src="images/stack.png" class="col-6-sm mid-text-img">
+        
+    
+        <p class="col-6-sm mid-text">The second subject we are currently busy with. This subject is intense but, it is turning to be my favourite subject, mainly due to the amount of skills I am learning.</p>
+    </div>
+    </div>
+    <div class="col-4">
+        <div class="row">
+        <h2> Agile Rapid Skills Acquisition</h2>
+        <img src="images/agile.jpeg" class="col-6-sm">
+    
+        <p class="col-6-sm">We have not really done much on this subject but, what we have done so far is pretty epic. From using the Kanban board to doing a retrospective session, this subject is also one of my favourites so far.</p>
+        </div>
+    </div>
+   </div>
+</div>
+    
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+/** css for the the body**/
+body {
+background-color: #DCB6D5;
+}
+
+/**color for different blocks**/
+.name {
+  background-color:#CF8BA9 ;
+}
+.which {
+  background-color: #C0758B;
+}
+
+/**css for image and paragraph...**/
+/*.container {
+  width: 100%;
+}
+
+.container p {
+  overflow: auto;
+  width: 50%;
+}
+
+.container img {
+  float: left;
+  margin-right: 10px;
+  width:40%;
+}*/
+
+/** block formating css**/
+
+.block {
+  border: 1px solid;
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  border-radius: 1em;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+}
+.my_img {
+  width: 150px;
+  margin: 10px;
+}
+
+/**.img_me {
+  float: none;
+}**/
+
+/** css for margin between two blocks/elements**/
+.margin{
+  margin-left: 10px;
+}
+
+/** css for background image **/
+.back {
+  background-image: url(images/download.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+/**table css**/
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 65%;
+  
+}
+td, th {
+  border: 1px solid;
+  text-align: left;
+}
+
+/** media querries**/
+@media (min-width: 600px) {
+  .city {
+    display: flex;
+  
+  }
+  
+  .mid-text {
+    order: 0;
+  }
+/*.container {
+  width: 100%;
+}
+
+.container p {
+  width: 40%;
+}
+
+.container img {
+  float: left;
+  margin-right: 10px;
+  width: 40%;
+}
+/**.row_reverse {
+  flex-direction: row-reverse;
+}**/
+/*.mid-text {
+  order: 0;
+
+}*/
+}
+
+@media (max-width:600px) {
+  
+.row {
+  display: flex;
+  margin: auto;
+}
+
+.mid-text {
+  order: -1;
+}
+
+
+
+}
+
+/**.row.reverse {
+flex: 1;**/
+ /** flex-direction: column-reverse;
+}
+
+/**.img_c {
+  width: 50%;
+  height: auto;
+  float: inherit;
+}
+
+.p_c {
+  width: 50%;
+  overflow: auto;
+  text-align: left;
+}**/
+/*.container {
+  width: 100%;
+}
+
+.container p {
+
+  width: 40%;
+}
+
+.container img {
+  float: right;
+  margin-right: 10px;
+  width:40%;
+}*/
+
+/**.reverse {
+  flex-direction: row-reverse;
+}
+.city {
+  flex-direction: row-reverse;
+}**/
+/*.imag {
+  width: 100%;
+}
+.mid-text {
+  order: 0;
+}
+
+}**/
+
+/*@media (max-width: 960px) {
+  .city {
+    display: flex;
+    /*width: 100%;*/
+
+
+/*.mid-text {
+  order: 1;
+}
+
+
+}
+/*.city {
+  display:block;
+}
